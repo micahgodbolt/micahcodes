@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+- 4.2.1
+script:
+- node metalsmith.js
+deploy:
+  detect_encoding: true
+  provider: s3
+  region: us-west-2
+  access_key_id: AKIAJQ3SJSUKUT6ONX2A
+  secret_access_key:
+    secure: B8Zl8X3i8s3mkOH3tKlUo8Zgb2g+kbRqn76kLs1KOWrulmkYWdFzwgceyY1P/Fl8fCzAdqN3pD9j6tgOnK5KmMUPII1aQ8EtO2Dfu0+0rL38nHpawAqqN+I95l87oqegjh5nZ0+zXW0tRH4wGbADV3y7W3EKegeYPbBKXMjVrku6dKG5/zMy1fcNXl+e3tGRIj4xkwj0j59Kcc2krf4K4idY4002gMz2CGvYXb1JjhU9Pjff+ThbiQuJtQMODMwNsPmnGgv+Szfg6Q3StjU//tkKt8BSOlKS+vGYc6l3zlXTL5r95usDifJvNEiy8km78TlLHTYt67CSuTokWyhJR9MuxZwO35ByM2D+aEOygXiTQe71dA85bg2DBi+C8JXvYM5iA0Q5qBxA51G0c79JbhIPptrnR6eZ753tzEtxHI4eaGRIvTUpsXbLLCO1LKmqo3jXpaUScFY8ypa8CXfUQ/6UxEtP66ico+zPwf6NuZ3LFU+aDs/CxfaPlDVXqGTmsKTOeGZ+R43nnZQL18I/D6AStk0RPeidM+9dhw+/RsxjZFnA9pVZwSBA/UIqxNDNRe+alEI0WTAjvB06/MCMyE3CHBVF6c8qn8xe8Ed6kM5td1i+GjuncjrLvR6voPBBpTSzc9M5arlh/chKLEudhjdZ0pCIORkytXsi7ZhBCWc=
+  bucket: micah.codes
+  local-dir: dist
+  acl: public_read
+  skip_cleanup: true
+  on:
+    repo: micahgodbolt/micahcodes
+    branch: master
