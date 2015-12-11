@@ -1,1 +1,1 @@
-# Welcome to the Micah.Codes blog
+# Welcome to the [Micah.Codes](https://micah.codes/) blog
