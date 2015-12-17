@@ -14,7 +14,7 @@ var nunjucks = require('nunjucks');
 var nunjucksDate = require('nunjucks-date');
 var metalsmith = Metalsmith(__dirname);
 
-
+process.env.TZ = 'Pacific';
 
 // General Options for build process
 var options = {
@@ -84,7 +84,7 @@ metalsmith
   .source(options.source_dir)
   .clean(true)
   .use(drafts(true))
-  .use(dateInFilename(true))
+  .use(dateInFilename({override: false}))
   .use(collections(site_collections))
   .use(markdown())
   .use(excerpts())

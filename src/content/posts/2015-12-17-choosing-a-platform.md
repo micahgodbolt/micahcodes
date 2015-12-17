@@ -1,5 +1,5 @@
 ---
-title: Choosing a Platform
+title: Choosing a Blogging Platform
 layout: post.html
 ---
 
