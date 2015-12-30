@@ -106,6 +106,11 @@ metalsmith
       'itunes': 'http://www.itunes.com/dtds/podcast-1.0.dtd'
     },
     custom_elements: [
+      {'itunes:image': {
+        _attr: {
+          url: "http://micah.codes/assets/img/closing-bracket.png"
+        }
+      }},
       {'itunes:author': 'Micah Godbolt'},
       {'itunes:owner': [
         {'itunes:name': 'Micah Godbolt'},
