@@ -38,9 +38,8 @@ var metadata = {
   title: "Micah Codes",
   description: "My Blog",
   site: {
-    title: "Micah Codes",
-    url: "http://micah.codes",
-    author: "Micah Godbolt"
+    title: "Closing Bracket Show",
+    url: "http://micah.codes"
   }
 }
 
