@@ -101,7 +101,7 @@ metalsmith
   }))
   .use(feed({
     collection: 'podcasts',
-    destination: 'closingbracket.xml',
+    destination: 'closing-bracket/rss.xml',
     custom_namespaces: {
       'itunes': 'http://www.itunes.com/dtds/podcast-1.0.dtd'
     },
