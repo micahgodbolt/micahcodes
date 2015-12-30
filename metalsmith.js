@@ -12,6 +12,7 @@ var watch = require('metalsmith-watch');
 var assets = require('metalsmith-assets');
 var nunjucks = require('nunjucks');
 var nunjucksDate = require('nunjucks-date');
+var podcastMeta = require('./podcast-meta.js');
 var metalsmith = Metalsmith(__dirname);
 
 process.env.TZ = 'Pacific';
@@ -48,6 +49,10 @@ var site_collections = {
   posts: {
     pattern: 'posts/*.md',
     sortBy: 'date',
+    reverse: true
+  },
+  podcasts: {
+    pattern: 'podcasts/*.md',
     reverse: true
   },
   pages: {
@@ -94,6 +99,27 @@ metalsmith
   .use(assets(options.assets))
   .use(feed({
     collection: 'posts'
+  }))
+  .use(feed({
+    collection: 'podcasts',
+    destination: 'closingbracket.xml',
+    custom_elements: [
+      {'itunes:author': 'Micah Godbolt'},
+      {'itunes:owner': [
+        {'itunes:name': 'Micah Godbolt'},
+        {'itunes:email': 'micahgodbolt@gmail.com'}
+      ]},
+      {'itunes:category':
+       {
+         _attr: {
+           text: 'Technology'
+         }
+       }
+     }
+    ],
+    postCustomElements: function(file) {
+      return podcastMeta(file, metadata);
+    }
   }))
   .use(layouts({
       engine: 'nunjucks',
