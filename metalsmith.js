@@ -108,7 +108,7 @@ metalsmith
     custom_elements: [
       {'itunes:image': {
         _attr: {
-          url: "http://micah.codes/assets/img/closing-bracket.png"
+          url: "https://micah.codes/assets/img/closing-bracket.png"
         }
       }},
       {'itunes:author': 'Micah Godbolt'},

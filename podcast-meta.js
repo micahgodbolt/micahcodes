@@ -1,5 +1,3 @@
-var fs = require("fs");
-
 module.exports = function(file, metadata) {
   var podcastData = [];
 
@@ -22,13 +20,11 @@ module.exports = function(file, metadata) {
 
   // MP3 File
   if (file.audio) {
-    var mp3Stats = fs.statSync('src/assets/audio/' + file.audio);
     podcastData.push(
       {
         'enclosure': {
           _attr: {
             url: 'https://micah.codes/assets/audio/' + file.audio,
-            length: mp3Stats.size / 1000000.0,
             type: "audio/mpeg"
           }
         }
