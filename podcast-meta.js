@@ -2,7 +2,6 @@ var fs = require("fs");
 
 module.exports = function(file, metadata) {
   var podcastData = [];
-  console.log(file);
 
   // Featured Image
   if (file.featuredImage) {
