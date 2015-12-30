@@ -43,7 +43,6 @@ module.exports = function(file, metadata) {
 
   // Misc
   podcastData.push(
-    {'itunes:author': metadata.site.author},
     {'pubDate': file.date}
   );
 

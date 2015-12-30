@@ -102,6 +102,9 @@ metalsmith
   .use(feed({
     collection: 'podcasts',
     destination: 'closingbracket.xml',
+    custom_namespaces: {
+      'itunes': 'http://www.itunes.com/dtds/podcast-1.0.dtd'
+    },
     custom_elements: [
       {'itunes:author': 'Micah Godbolt'},
       {'itunes:owner': [
