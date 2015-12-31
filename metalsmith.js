@@ -38,7 +38,7 @@ var metadata = {
   title: "Micah Codes",
   description: "My Blog",
   site: {
-    title: "Closing Bracket Show",
+    title: "Micah Codes",
     url: "http://micah.codes"
   }
 }
@@ -106,6 +106,9 @@ metalsmith
       'itunes': 'http://www.itunes.com/dtds/podcast-1.0.dtd'
     },
     custom_elements: [
+      {'title': "Closing Bracket Podcast"},
+      {'description': "A podcast by Micah Godbolt covering Front-end Architecture and all things web"},
+      {'itunes:summary': "A podcast by Micah Godbolt covering Front-end Architecture and all things web"},
       {'itunes:image': {
         _attr: {
           url: "https://micah.codes/assets/img/closing-bracket.png"
