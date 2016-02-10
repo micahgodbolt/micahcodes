@@ -2,7 +2,7 @@ language: node_js
 node_js:
 - 4.2.1
 script:
-- node metalsmith.js
+- npm run build
 deploy:
   detect_encoding: true
   provider: s3
