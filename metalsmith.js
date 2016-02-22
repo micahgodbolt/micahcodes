@@ -36,7 +36,7 @@ var options = {
 // Metadata to be passed to templates
 var metadata = {
   title: "Micah Codes",
-  description: "My Blog",
+  description: "Micah.Codes is a blog written by Micah Godbolt: Frontend Architect, Author, Speaker, Podcaster. Micah writes about Frontend Architecture and all things web development",
   site: {
     title: "Micah Codes",
     url: "http://micah.codes"
