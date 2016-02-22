@@ -97,4 +97,4 @@ Our project succeeds when the visual design of the site inspires and delights, w
 Be sure to pick up my book from O'Reilly Press called ["Frontend Architecture for Design Systems"](http://bit.ly/feabook), if you want to learn about the four pillars of Frontend Architecture and hear story that lead me to championing this new discipline. It has been my passion for the past two years, and is always exciting to see that passion shared in others.
 
 
-<a href="http://bit.ly/feabook"><img height="360" width="250" src="/assets/img/feacover.jpg" alt="Frontend Architecture for Design Systems"></a>
+<a href="http://bit.ly/feabook"><img height="360" width="250" src="/assets/img/feacover.png" alt="Frontend Architecture for Design Systems"></a>
