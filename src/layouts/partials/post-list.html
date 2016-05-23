@@ -1,6 +1,6 @@
 {% for items in collections.posts %}
   <article>
-    <h1><a href="{{items.path}}">{{items.title}}</a></h1>
+    <h1><a href="{{items.path}}/">{{items.title}}</a></h1>
     <time datetime="{{ items.date | date }}">Posted on: {{ items.date | date }}</time>
     {{items.excerpt|safe}}
   </article>

@@ -1,7 +1,7 @@
 <nav>
   <ul>
   {% for page in collections.pages %}
-    <li><a href="/{{page.path}}" title="{{page.title}}">{{page.title}}</a></li>
+    <li><a href="/{{ page.path ~ '/' if page.path }}" title="{{page.title}}">{{page.title}}</a></li>
   {% endfor %}
   </ul>
 </nav>
