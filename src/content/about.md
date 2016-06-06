@@ -21,6 +21,7 @@ I'm a Front-end Architect, author, speaker, trainer, blogger and developer from 
 
 - [DrupalCon Prague 2013](https://prague2013.drupal.org/session/creating-responsive-drupal-prototypes-angularjs.html)
 - [DrupalCon LA 2015](https://events.drupal.org/losangeles2015/sessions/new-design-workflow)
+- [DrupalCon New Orleans 2016](https://bit.ly/road-runner-rules)
 - CSS Dev Conf 2013 - Get Your Sass In Line
 - [CSS Dev Conf 2014 - Raising a Banner for Front-end Architecture](https://teamtreehouse.com/library/raising-a-banner-for-the-frontend-architect)
 - CSS Dev Conf 2015 - Visual Regression Testing
@@ -28,7 +29,7 @@ I'm a Front-end Architect, author, speaker, trainer, blogger and developer from 
 - Front-end Summit 2015 - Creating Workflows with Grunt
 
 ### Training
-
+- [Frontend Architecture for Design Systems - Coming September 2016](http://www.generateconf.com/london-2016/schedule/frontend-architecture-design-systems/)
 - CSS Dev Conf 2015 - Visual Regression Testing Workshop
 - [SassBites Podcast](https://www.youtube.com/user/sassbites)
   - [Intro to Flex Box](https://www.youtube.com/playlist?list=PLJKslvBeWd2ZakfNjMo8ZZup3IMrxeTG0)
